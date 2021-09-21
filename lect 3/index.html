@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      ul {
+        list-style-type: lower-roman;
+        background-color: yellow;
+      }
+      ul {
+        background-color: orange;
+      }
+
+      body {
+        /* background-color: pink; */
+        /* background-image: url("basketball.png"); */
+        font-size: 10pt;
+      }
+      img {
+        width: 46px;
+        height: 44px;
+        background: url(sprite.gif) -90px 0;
+      }
+      #topheading {
+        background-color: aqua;
+      }
+      .amazing {
+        color: red;
+        border: 1px dashed blue;
+        padding: 20px;
+        margin: 30px;
+      }
+      li:hover {
+        color: red;
+        background-color: yellow;
+      }
+      li::first-letter {
+        font-size: 6em;
+      }
+    </style>
+    <link rel="stylesheet" href="./external.css" />
+  </head>
+  <body>
+    <h1 id="topheading" class="amazing">Hello</h1>
+
+    <a href="#bottom">Go to Bottom</a>
+    <ul>
+      <li>Some Text</li>
+      <li>Some Text</li>
+      <li style="display: none">Some Text</li>
+      <li>Some Text</li>
+      <li>Some Text</li>
+    </ul>
+    <h1>WOW</h1>
+    <h1>WOW 1</h1>
+    <img src="./img_trans.gif" alt="" width="1" height="1" />
+    <p class="amazing">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque itaque at
+      impedit et eius illo veritatis asperiores deleniti aliquam quo optio
+      numquam maiores tempore beatae sed enim, culpa, aspernatur neque.
+    </p>
+    <p class="amazing">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque itaque at
+      impedit et eius illo veritatis asperiores deleniti aliquam quo optio
+      numquam maiores tempore beatae sed enim, culpa, aspernatur neque.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque itaque at
+      impedit et eius illo veritatis asperiores deleniti aliquam quo optio
+      numquam maiores tempore beatae sed enim, culpa, aspernatur neque.
+    </p>
+    <a id="bottom" href="#topheading">Go to Top</a>
+  </body>
+</html>
